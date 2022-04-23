@@ -1,0 +1,46 @@
+Object Oriented Programming yani Nesne Yönelimli Programlama,
+her işlevin nesnel olarak soyutlandığı bir programlama şeklidir.
+Bu açıklamayı daha da örnekleyerek açıklarsak, gerçek hayatta
+gördüğümüz birçok nesnenin bilgisayar ortamına aktarılma şeklidir.
+Yani bir nesnenin rengi, durumu, ismi, üretim yılı gibi birçok
+ özelliklerin bilgisayar ortamında gösterilmesi buna örnek
+ olarak verilebilir.
+
+Nesne Yönelimli Programlamanın Faydaları
+-Nesne oluşturma bir sınıf içerisinde toplanır ve tüm projelerde
+kullanılabilirliğe olanak sağlar.
+-Sınıfların 1 kez oluşturulması
+sayesinde uzun kodları tekrardan yazmak yerine kısa kodlamalar ile
+çalıştırılabilir.
+-Uzun kodların tekrar yazılmasının engellenmesi
+sayesinde geliştirme süreci kısalır.
+-Nesneler birbirinden bağımsız
+ olduğundan bilgi gizliliği konusunda avantaj sağlar.
+-Sınıflar sayesinde tüm projelerde değişiklik yapmak yerine
+tek bir sınıfta değişiklik yapılıp tüm projelerde çalışması sağlanır.
+ Bu zaman kaybını büyük ölçüde azaltır.
+
+Sınıf Nedir?
+-Değişkenleri ve methodları bir arada saklayan sistemdir.
+-Değişkenler kullanacağımız verileri örneğin ad, soyad, yaş gibi
+verileri saklar. Metotlar bu verilerin toplanması gibi görevleri
+sağlayan bir sistemdir.
+
+Nesne Nedir?
+-Verileri saklayan ve bu veriler üzerinde işlem yapan metodları
+saklayan bileşenlerdir.
+-Nesne Yönelimli Programlamanın Özellikleri Nelerdir?
+Sistemimizin birçok özelliği vardır.
+Bunları 4 temel özellikte inceleyebiliriz.
+
+1-Soyutlama (Abstraction)
+2-Kapsülleme (Encapsulation)
+        Javada kapsulleme 3 sekilde yapilir
+        1-private : sadece kendi sınıfında kullanılabilen özellik ve davranışlardır(sadece class'lar ulasir)
+        2-Default :class ve package'ler ulasabilir
+        3-protected : sınıf içinde miras alınan alt sınıflar tarafından kullanılır.(class, package ve subclass'lar ulasabilir)
+        4-public : herkesin kullanabileceği özellik ve davranışlardır(classlar, packagelar, subclasslar, global.
+        Kapsullemede 1'de 4'e dogru bilgilere ulasim kolaylasirken 4'ten 1'e dogru bilgilere
+        ulasim zorlasir
+3-Miras Alma (Inheritance)
+4-Çok Biçimlilik (Polymorphism)
