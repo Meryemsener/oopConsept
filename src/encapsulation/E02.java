@@ -3,7 +3,8 @@ package encapsulation;
 public class E02 {
     public static void main(String[] args) {
         E01 obj = new E01();
-        System.out.println(obj.getSifre());//sifreyi goremedigimiz halde getSifre ile gorunur hale return ettik
+        System.out.println(obj.getSifre());
+        //sifreyi goremedigimiz halde getSifre ile gorunur hale return ettik
         System.out.println(obj.getIsim());
         System.out.println(obj.getCinsiyet());
         //setterdan sonra

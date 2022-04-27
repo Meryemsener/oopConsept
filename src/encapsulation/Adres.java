@@ -43,7 +43,7 @@ public class Adres {
 
     public void setCadde(String cadde) {
         //cadee adi nasil girilirse girilsin buyuk harf olsun diyorsak
-        cadde=cadde.substring(0,1).toUpperCase()+cadde.substring(1);//ilk harfini al buyuk yaz sonra geri kalanlari ekle
+        cadde=cadde.substring(0,1).toUpperCase()+cadde.substring(1).toLowerCase();//ilk harfini al buyuk yaz sonra geri kalanlari ekle
         this.cadde = cadde;
     }
 

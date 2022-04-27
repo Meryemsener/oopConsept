@@ -31,11 +31,11 @@ public class K03PublicPrivateStatic {
         this.ulke = ulke;
     }
 
-    public void setCadde(String cadde) {
-        this.cadde = cadde;
-
-    }
     public String getCadde() {
         return cadde;
+    }
+
+    public void setCadde(String cadde) {
+        this.cadde = cadde;
     }
 }

@@ -19,10 +19,15 @@ public class K01AdresMAin {
         adr.blok             = "12";
         adr.sehir            = "Sint-Niklaas";
         adr.ulke             = "Belgie";
+
+
+
+
+
         ogrenci.isim         = "Evaline";
         ogrenci.soyIsim      = "Peter";
         ogrenci.ogrenciAdres = adr;
-        //System.out.println(ogrenci.ogrenciAdres);bu referansa goturur
+        //System.out.println(ogrenci.ogrenciAdres);//bu referansa goturur
         System.out.println(ogrenci.ogrenciAdres.sehir);
 
         //bunlari bu sekilde olusturmak yazdirmak icin yeterli olmadigindan
